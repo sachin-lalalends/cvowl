@@ -1,0 +1,204 @@
+
+body {
+  padding-top: 60px;
+}
+
+#datasaved{
+  display: none;
+  width: 14%;
+  z-index:9999;
+  position: fixed;
+  left: 50%;
+  top: 32px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#suggestions{
+  color:#5093C1;
+  font-size: 12px;
+  cursor:pointer;
+  margin-top: -10px;
+  display: block;
+  margin-bottom:40px;
+}
+
+.input-group-addon{
+    border: none;
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+
+.remove_menu {
+  margin-top: -50px;
+  min-height: calc(100% + 50px);
+}
+
+.site-menu-title {
+  font-weight: 500;
+}
+
+.site-sidebar-tab-content {
+  height: calc(100%);
+}
+
+.form-material .form-control:not(.empty) ~ .floating-label {
+  font-weight: 200;
+}
+
+.site-sidebar-nav.nav-tabs > li > a {
+  line-height: 45px;
+}
+
+.new-heading {
+  font-weight: 500;
+}
+
+label {
+  font-weight: 400 !important;
+}
+
+.nav-tabs.nav-justified>li>a {
+  border-bottom: 0px;
+}
+
+.control-open{
+  margin-bottom: -8px;
+  margin-top:-10px;
+  margin-right:10px;
+  font-size:19px
+}
+
+.nav-tabs>li>a>.icon {
+  font-size: 13px;
+}
+
+
+.shadow {
+  box-shadow: 2px 1px 5px 5px #E4E4E4;
+}
+
+.site-skintools {
+  position: fixed;
+  top: 110px;
+  left: 29px;
+  z-index: 1300;
+  width: 270px;
+  color: #76838f;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.site-skintools-inner {
+  height: 100%;
+}
+
+.site-skintools-toggle {
+  position: absolute;
+  top: 0;
+  left: -34px;
+  padding: 10px 8px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, .09);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+}
+
+
+.upgrade-modal .modal-content{
+  background: none;
+  border:none;
+  box-shadow:none;
+}
+
+.view_more{
+  color:#5093C1;
+  font-size: 14px;
+  cursor:pointer;
+  display: block;
+  margin-top:5px;
+}
+@media (min-width: 768px){
+    .upgrade-modal .modal-dialog {
+      width: 1000px;
+      margin: 30px auto;
+  }
+}
+
+.nano {
+  height: inherit;
+}
+
+.nano .content {
+  padding: 10px;
+  position: inherit;
+}
+
+.nano .pane {
+  background: #888;
+}
+
+.nano .slider {
+  background: #111;
+}
+
+
+.slidePanel-desc{
+  font-weight: 300;letter-spacing: .3px;color:#f2a654;
+}
+.media-right{
+  min-width:60px;
+}
+
+.media-body > h4{
+  width:180px;
+  white-space: nowrap;
+  overflow:hidden !important;
+  text-overflow: ellipsis;
+}
+
+.media-body > p{
+  margin: 0px;
+  font-size:smaller;
+  width:180px;
+  white-space: nowrap;
+  overflow:hidden !important;
+  text-overflow: ellipsis;
+}
+.ui-state-highlight { height: 1.5em; line-height: 1.2em; background:black;}
+
+.note-editor .note-toolbar.btn-toolbar .btn-group .btn-default.active, .note-editor .note-toolbar.btn-toolbar .btn-group .btn-default:active{
+  color: #71B0EB;
+}
+
+.cursor-pointer{
+  cursor:pointer;
+}
+
+.page{
+  min-height: calc(100%)
+}
+
+.emailverify-backline{
+    background: #FFCC80;
+    width: 100%;
+    margin-top:6px;
+    line-height: 32px;
+    color: #888;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 5px;
+}
+
+.emailverify-text{
+  color: #000;
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1.05em;
+}

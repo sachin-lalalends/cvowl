@@ -1,0 +1,13 @@
+{
+  "short_name": "Kinlan's Amaze App",
+  "name": "Kinlan's Amazing Application ++",
+  "icons": [
+    {
+      "src": "128.png",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "landscape"
+}

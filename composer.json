@@ -1,0 +1,7 @@
+{
+    "require": {
+        "aws/aws-sdk-php": "^3.18",
+        "facebook/graph-sdk": "^5.3",
+        "google/apiclient": "^2.0"
+    }
+}

@@ -1,0 +1,69 @@
+{
+  "name": "CVowl",
+  "title": "CVowl",
+  "description": "Reinvent the way you represent youself",
+  "version": "2.1.0",
+  "homepage": "http://cvowl.com/",
+  "private": true,
+  "keywords": [
+    "css",
+    "js",
+    "less",
+    "mobile-first",
+    "responsive",
+    "framework",
+    "web",
+    "admin",
+    "bootstrap"
+  ],
+  "author": {
+    "name": "MayankAggarwal",
+    "url": "http://cvowl.com/"
+  },
+  "bugs": {
+    "url": "http://cvowl.com/"
+  },
+  "license": "Standard Licenses",
+  "licenses": [{
+    "type": "Standard Licenses",
+    "url": ""
+  }],
+  "devDependencies": {
+    "del": "*",
+    "glob": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-bootlint": "*",
+    "gulp-concat": "*",
+    "gulp-csscomb": "*",
+    "gulp-csslint": "*",
+    "gulp-header": "*",
+    "gulp-html": "*",
+    "gulp-jshint": "*",
+    "gulp-jslint": "*",
+    "gulp-less": "*",
+    "gulp-minify-css": "*",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-prettify": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "node-notifier": "*",
+    "run-sequence": "*"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  },
+  "files": [
+    "js/**/*.js",
+    "css/**/*.css",
+    "vendor/**/*",
+    "fonts/**/*",
+    "src/js/**/*.js",
+    "src/less/**/*.less",
+    "src/vendor/**/*.less",
+    "src/fonts/**/*.less",
+    "src/skins/**/*.less"
+  ]
+}
